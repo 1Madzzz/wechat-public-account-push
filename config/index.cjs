@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1999', date: '07-23',
+          type: '*生日', name: '胡胡', year: '1999', date: '07-23',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1999', date: '03-05',
+          type: '生日', name: '呼呼', year: '1999', date: '03-05',
         },
         {
           type: '节日', name: '相识纪念日', year: '2022', date: '08-22',
@@ -49,7 +49,9 @@ const USER_CONFIG = {
     },
   ],
 
-
+  TIAN_API:{
+    key:"65a89d911868e57728d62a0afa1acf99"
+  },
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'i_8gw_Y1iKjmKuHKqrsum8gFTaywVXRWynLcLhXhsEg',
 
