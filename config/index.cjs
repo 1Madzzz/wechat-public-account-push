@@ -41,7 +41,10 @@ const USER_CONFIG = {
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
-        // 在一起的日子
+
+        { keyword: 'wx_birthday_0.DATA', date: '1999-03-05' },
+        { keyword: 'wx_birthday_1.DATA', date: '1999-09-01' },
+                // 在一起的日子
         { keyword: 'love_day', date: '2023-08-22' },
         // 结婚纪念日
         //{ keyword: 'marry_day', date: '2022-09-09' },
