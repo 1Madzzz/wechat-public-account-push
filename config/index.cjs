@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oIEKc6Kabu6MeRTCDMXe5B2AULRg',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'i_8gw_Y1iKjmKuHKqrsum8gFTaywVXRWynLcLhXhsEg',
+      useTemplateId: '14NtoDJCARyEf9h15KD3fqA_Hp5fmUA6XT_byGThzZQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -42,8 +42,8 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
 
-        { keyword: 'wx_birthday_0.DATA', date: '1999-03-05' },
-        { keyword: 'wx_birthday_1.DATA', date: '1999-09-01' },
+        //{ keyword: 'wx_birthday_0.DATA', date: '1999-03-05' },
+        //{ keyword: 'wx_birthday_1.DATA', date: '1999-09-01' },
                 // 在一起的日子
         { keyword: 'love_day', date: '2023-08-22' },
         // 结婚纪念日
@@ -56,7 +56,7 @@ const USER_CONFIG = {
     key:"65a89d911868e57728d62a0afa1acf99"
   },
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'i_8gw_Y1iKjmKuHKqrsum8gFTaywVXRWynLcLhXhsEg',
+  CALLBACK_TEMPLATE_ID: '14NtoDJCARyEf9h15KD3fqA_Hp5fmUA6XT_byGThzZQ',
 
   CALLBACK_USERS: [
     {
