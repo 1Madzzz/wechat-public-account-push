@@ -65,7 +65,31 @@ const USER_CONFIG = {
       id: 'oIEKc6Kabu6MeRTCDMXe5B2AULRg',
     }
   ],
+  PROVINCE: '湖北',
+  CITY: '武汉',
+  FESTIVALS: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '胡胡', year: '1999', date: '07-23',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '呼呼', year: '1999', date: '03-05',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2022', date: '08-22',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      CUSTOMIZED_DATE_LIST: [
 
+        //{ keyword: 'wx_birthday_0.DATA', date: '1999-03-05' },
+        //{ keyword: 'wx_birthday_1.DATA', date: '1999-09-01' },
+                // 在一起的日子
+        { keyword: 'love_day', date: '2023-08-22' },
+        // 结婚纪念日
+        //{ keyword: 'marry_day', date: '2022-09-09' },
+      ],
 }
 
 module.exports = USER_CONFIG
