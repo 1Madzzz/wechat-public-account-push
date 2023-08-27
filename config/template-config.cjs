@@ -5,7 +5,7 @@ const TEMPLATE_CONFIG = [
     title: '亲爱的饱饱, 早上好！',
     desc: `
       **{{date.DATA}}**
-      **今天又是充满希望的一天~**/r
+      **今天又是充满希望的一天~**\n
       
       下个休息日：{{holidaytts.DATA}}
       
@@ -15,9 +15,9 @@ const TEMPLATE_CONFIG = [
       
       天气：{{weather.DATA}}
       
-      最低气温: {{min_temperature.DATA}}/r
-      最高气温: {{max_temperature.DATA}} 
-     
+      最低气温: {{min_temperature.DATA}}\n
+      最高气温: {{max_temperature.DATA}}\n 
+      注意:{{notice.DATA}}
       风向: {{wind_direction.DATA}}
       
       风级: {{wind_scale.DATA}}
