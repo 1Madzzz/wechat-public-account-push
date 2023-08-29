@@ -26,7 +26,7 @@ USE_PASSAGE: 'push-deer',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '03-05',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -35,9 +35,6 @@ USE_PASSAGE: 'push-deer',
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '呼呼', year: '1999', date: '03-05',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2022', date: '08-22',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -76,9 +73,6 @@ USE_PASSAGE: 'push-deer',
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '呼呼', year: '1999', date: '03-05',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2022', date: '08-22',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
